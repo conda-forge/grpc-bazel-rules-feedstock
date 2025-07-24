@@ -1,5 +1,5 @@
 context:
-  version: "1.71.0"
+  version: "1.71.1"
 
 package:
   name: grpc-bazel-rules
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/grpc/grpc/archive/v${{ version }}.tar.gz
-  sha256: 0d631419e54ec5b29def798623ee3bf5520dac77abeab3284ef7027ec2363f91
+  sha256: cfb80ec62db7b40c90154fa72d1d492b431f5b041e315aad533cbb3bc47b1674
 
 build:
   number: 0
