@@ -8,9 +8,11 @@ package:
 source:
   url: https://github.com/grpc/grpc/archive/v${{ version }}.tar.gz
   sha256: 0d631419e54ec5b29def798623ee3bf5520dac77abeab3284ef7027ec2363f91
+  patches:
+    - 0001-Adjust-to-support-xla-specific-features.patch
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
