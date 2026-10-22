@@ -1,5 +1,5 @@
 context:
-  version: "1.84.0"
+  version: "1.84.1"
 
 package:
   name: grpc-bazel-rules
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/grpc/grpc/archive/v${{ version }}.tar.gz
-  sha256: 17a4d25717f4871eb71cfdf191f7491f66a59c8ebc782ab53d52fcbfc478959f
+  sha256: e3cd1dbeedc989a6bf863bc1f0762a7cd1feff5cfae7d520481a541ad23ca85e
   patches:
     - 0001-Adjust-to-support-xla-specific-features.patch
 
